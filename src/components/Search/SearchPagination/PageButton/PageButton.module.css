@@ -1,0 +1,31 @@
+.paginationCount,
+.paginationDisabled {
+  transition: 0.1s;
+  border: 2px solid #afafaf;
+  border-radius: 5px;
+  background: #fff;
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+  padding: 2px 6px;
+  margin-right: 1px;
+  display: inline-block;
+  width: 45px;
+}
+.paginationDisabled {
+  cursor: default;
+}
+.paginationCount:hover {
+  background-color: #ebebeb;
+  color: #afafaf;
+}
+.paginationCount.active {
+  background: #afafaf;
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+  .paginationCount,
+  .paginationDisabled {
+    display: none;
+  }
+}

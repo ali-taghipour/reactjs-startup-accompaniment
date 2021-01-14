@@ -1,0 +1,34 @@
+export interface FormValueInterface {
+  username: string
+  password: string
+  repassword: string
+  firstName: string
+  cellphone: string
+  lastName: string
+  email: string
+  dayOfBirthDate: number
+  monthOfBirthDate: number
+  yearOfBirthDate: number
+  locationId: number
+  locationId2: number
+  locationId3: number
+  locationTitle: string
+  languageId1: number
+  languageId2: number
+  languageId3: number
+  howKnowingUs: string
+  reference: string
+  gender: number
+  mainInstrument: number
+  mainLevel: number
+  mainStartingDate: number
+  mainStyle1: number
+  mainStyle2: number
+  mainStyle3: number
+  secondInstrument: number
+  secondLevel: number
+  secondStartingDate: number
+  secondStyle1: number
+  secondStyle2: number
+  secondStyle3: number
+}

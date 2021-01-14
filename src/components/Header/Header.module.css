@@ -1,0 +1,16 @@
+.topsection {
+  height: 300px;
+  background: url("/Assets/Images/Home-Images/black&white2.png") no-repeat 107%
+      107%,
+    url("/Assets/Images/Home-Images/black&white.jpg") no-repeat center center;
+  background-size: 325px auto, 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .topsection {
+    height: 500px;
+    background: url("/Assets/Images/Home-Images/black&white.jpg") no-repeat 0%
+      0%;
+    background-size: 100% 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.sidebarBottom {
+  padding: 20px 25px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.sidebarBottom .level {
+  display: inline-block;
+  padding: 7px;
+  border-radius: 30%;
+  margin: 5px 0;
+  color: #fff;
+}

@@ -1,0 +1,97 @@
+.SearchForm {
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: -120px;
+}
+
+.SearchInputContainer {
+  width: 200px;
+}
+
+.locationType {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: -35px;
+  top: 55px;
+  z-index: 10;
+  border-radius: 100%;
+  background: #c7c3ab url("/Assets/Images/Icons/chevron-circle-right.png")
+    no-repeat 50% 50%;
+  background-size: 100%;
+  padding-bottom: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.locationType:hover {
+  height: 33px;
+  width: 33px;
+}
+.locationType.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .SearchForm {
+    width: 850px;
+  }
+  .SearchInputContainer {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .SearchForm {
+    width: 768px;
+  }
+  .SearchInputContainer {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .SearchForm {
+    width: 576px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 0px;
+  }
+  .SearchInputContainer {
+    width: 220px;
+    flex-shrink: 0;
+  }
+  .locationType {
+    right: -10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .SearchForm {
+    width: 396px;
+    justify-content: space-around;
+    top: 30px;
+  }
+  .SearchInputContainer {
+    width: 185px;
+  }
+  .locationType {
+    right: 10px;
+    top: 15px;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .SearchForm {
+    width: 360px;
+    top: 40px;
+  }
+  .SearchInputContainer {
+    width: 160px;
+  }
+  .locationType {
+    right: 10px;
+    top: 15px;
+  }
+}

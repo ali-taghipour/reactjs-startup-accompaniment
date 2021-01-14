@@ -1,0 +1,51 @@
+.noResult {
+  font-size: 22px;
+  color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchTableTitles {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+  border-top: 2px solid #ccc;
+  overflow: auto;
+  text-align: center;
+  color: rgb(76, 76, 76);
+  flex-grow: 1;
+  border: none;
+}
+.searchTableTitles > span {
+  display: block;
+  height: 85px;
+  border-left: 2px solid #ccc;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  flex: 0 0 1;
+  width: calc(16% - 2px);
+  border: none;
+}
+
+.searchTableTitles span.imageContainer {
+  width: calc(20% - 2px);
+}
+.searchTableTitles span.instrumentName {
+  width: calc(20% - 2px);
+}
+.searchTableTitles span.fullName {
+  width: calc(16% - 2px);
+}
+.searchTableTitles span.city {
+  width: calc(15% - 2px);
+}
+.searchTableTitles span.level {
+  width: calc(14% - 2px);
+}
+.searchTableTitles span.style {
+  width: calc(14% - 2px);
+}

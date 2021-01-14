@@ -1,0 +1,37 @@
+.persianText {
+  font-size: 58px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 140px;
+}
+.englishText {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .persianText {
+    font-size: 50px;
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .persianText {
+    font-size: 35px;
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .persianText {
+    top: 250px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .persianText {
+    top: 280px;
+  }
+}

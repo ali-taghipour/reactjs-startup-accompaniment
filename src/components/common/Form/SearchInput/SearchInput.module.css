@@ -1,0 +1,15 @@
+.searchInput {
+  width: 100%;
+  height: 39px;
+  background-color: rgb(199, 195, 171, 0.8);
+  border: 3px #585546 solid;
+  color: #524d40;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 51px;
+}
+.searchInput:hover {
+  background-color: rgba(230, 222, 179, 0.8);
+}

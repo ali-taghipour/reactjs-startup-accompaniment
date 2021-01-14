@@ -1,0 +1,63 @@
+.body {
+  width: 400px;
+  background: #ccc;
+  position: absolute;
+  padding: 20px 15px;
+  z-index: 5;
+  transition: 0.3s;
+  top: 0;
+}
+.body .followeritem {
+  height: 70px;
+  width: 100%;
+  margin: 6px 0;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 13px;
+}
+.body .followeritem > span {
+  margin: 0 8px;
+}
+.body .followeritem > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #ccc;
+}
+.body .followeritem:hover > img {
+  animation: imgUpDown 1s alternate infinite;
+}
+
+.body .countHolder {
+  display: flex;
+  justify-content: end;
+}
+.body.hide {
+  visibility: hidden;
+  opacity: 0;
+  left: 0;
+}
+.body.show {
+  visibility: visible;
+  opacity: 1;
+  left: 300px;
+  top: 0;
+}
+
+.countHolder > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.countHolder > span.count {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #3f51b5;
+  color: #fff;
+}

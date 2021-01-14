@@ -1,0 +1,77 @@
+header {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  padding: 10px 40px;
+  box-shadow: 0 4px 15px 1px rgba(26, 26, 26, 0.4);
+}
+
+header img {
+  height: 50px;
+}
+
+header img:hover {
+  opacity: 0.5;
+}
+
+header > .Option {
+  position: relative;
+  margin-left: auto;
+}
+
+header > .Option img {
+  height: 33px;
+}
+
+header > .Option img:last-child {
+  margin-left: 10px;
+}
+
+header > .Option > .Search {
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+header > .Option > .Search > img {
+  height: 50px;
+}
+
+header > .Option > .SearchBox {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  display: flex;
+  direction: rtl;
+  padding: 8px;
+  width: auto;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.2s;
+}
+
+header > .Option > .SearchBox > .SearchInput {
+  width: 330px;
+  border-radius: 5px;
+}
+
+header > .Option > .SearchBox > .SearchButton {
+  color: #fff;
+  margin-right: 8px;
+  background-color: #3f51b5;
+  width: 100px;
+}
+
+@media (max-width: 414px) {
+  header {
+    flex-direction: column;
+  }
+
+  .Option {
+    margin: auto;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+}

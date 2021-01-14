@@ -1,0 +1,84 @@
+.searchTableItems {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  color: rgb(76, 76, 76);
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: 500;
+}
+.searchTableItems:hover {
+  background: rgb(235, 235, 235);
+}
+.searchTableItems > span {
+  display: block;
+  height: 85px;
+  border-left: 2px solid #ccc;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  flex: 0 0 1;
+  width: calc(16% - 2px);
+}
+.searchTableItems > span .stFramePicture {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  background: #d6d6d6 url("/Assets//Images/Icons/icon-picture.png") no-repeat
+    50% 50%;
+  background-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchTableItems > span:last-child {
+  border: none;
+}
+.searchTableItems > span .stFramePicture > img {
+  width: 100%;
+  height: 100%;
+}
+.levelText {
+  width: 65px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 30px;
+}
+span.level1 {
+  background-color: rgb(251, 190, 73);
+}
+span.level2 {
+  background-color: rgb(247, 127, 0);
+}
+span.level3 {
+  background-color: rgb(238, 76, 12);
+}
+span.level4 {
+  background-color: rgb(87, 43, 71);
+  animation: perfossinal 1.2s infinite;
+  animation-delay: 2s;
+}
+.searchTableItems span.imageContainer {
+  width: calc(20% - 2px);
+}
+.searchTableItems span.instrumentName {
+  width: calc(20% - 2px);
+}
+.searchTableItems span.fullName {
+  width: calc(16% - 2px);
+}
+.searchTableItems span.city {
+  width: calc(15% - 2px);
+}
+.searchTableItems span.level {
+  width: calc(14% - 2px);
+}
+.searchTableItems span.style {
+  width: calc(14% - 2px);
+}

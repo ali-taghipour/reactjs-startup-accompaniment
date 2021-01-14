@@ -1,0 +1,30 @@
+.level .levelText {
+  width: 65px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+.level span.level1 {
+  background-color: rgb(251, 190, 73);
+}
+.level span.level2 {
+  background-color: rgb(247, 127, 0);
+}
+.level span.level3 {
+  background-color: rgb(238, 76, 12);
+}
+.level span.level4 {
+  background-color: rgb(87, 43, 71);
+  animation: perfossinal 1.2s infinite;
+  animation-delay: 2s;
+}
+@keyframes perfossinal {
+  from {
+    box-shadow: 0 0 0px 0px rgba(87, 43, 71, 0.5);
+  }
+  to {
+    box-shadow: 0 0 0px 12px rgba(87, 43, 71, 0);
+  }
+}

@@ -1,0 +1,51 @@
+.searchResultContainer {
+  margin: 30px auto;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+.removeFilter {
+  margin-right: 40px;
+  font-size: 20px;
+  border: 2px solid #999;
+  color: #4c4c4c;
+  background: url("/Assets/Images/Icons/close-circle.png") no-repeat 95% 50%;
+  background-size: 25px;
+  border-radius: 80px;
+  padding: 1px 8px;
+  padding-right: 35px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.removeFilter:hover {
+  border: 2px solid rgb(10, 10, 10);
+}
+.showResult {
+  margin-right: 15px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: rgb(76, 76, 76);
+}
+
+@media only screen and (max-width: 992px) {
+  .searchResultContainer {
+    margin: 20px auto;
+  }
+  .showResult {
+    font-size: 34px;
+    width: 900px;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .searchResultContainer {
+    margin: 20px auto;
+  }
+  .showResult {
+    font-size: 28px;
+    text-indent: 25px;
+    margin-top: 10px;
+    width: 900px;
+    display: inline-block;
+  }
+}

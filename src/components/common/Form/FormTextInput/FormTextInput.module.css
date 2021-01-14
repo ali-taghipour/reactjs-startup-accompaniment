@@ -1,0 +1,46 @@
+.formInputBlock {
+  border: 2px solid #b8b7b1;
+  background-color: #ffffcf;
+  padding: 5px 15px 5px;
+  border-radius: 10px;
+}
+
+.formInputBlockError {
+  border: 2px solid #fd2626;
+  border-radius: 10px;
+  padding: 5px 15px 5px;
+  margin-bottom: 1.5em;
+  background-color: #ffffcf;
+}
+.formInputText,
+.formInputTextArea {
+  height: 100%;
+  border: none;
+  width: 100%;
+  color: #a3a39f;
+  font-size: 18px;
+  background-color: #ffffcf;
+}
+
+.formInputTextArea {
+  resize: none;
+}
+
+.formInputText:focus,
+.formInputTextArea:focus {
+  outline: none;
+}
+
+.formErrorBlock {
+  background-color: #fd2626;
+  color: white;
+  font-size: 14px;
+  padding: 5px 15px 5px;
+  border-radius: 5px 0 5px 5px;
+  display: table;
+  margin-top: 10px;
+}
+
+.formInputTextLtrDir {
+  direction: ltr;
+}

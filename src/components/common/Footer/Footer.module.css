@@ -1,0 +1,14 @@
+.panelFooter {
+  background: #c79c69;
+}
+.panelFooter > .social a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.panelFooter > .social > a img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}

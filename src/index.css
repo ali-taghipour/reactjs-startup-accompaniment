@@ -1,0 +1,73 @@
+/* ************************ reset css ************************/
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/Yekan.ttf");
+}
+body {
+  margin: 0;
+  font-family: yekan;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #333;
+
+  text-decoration: none !important;
+}
+.rtl {
+  direction: rtl;
+}
+
+/* *************** DatePicker and Calendar  *************** */
+.custom-today-day {
+  box-shadow: inset 0 0 1px 1px rgb(207, 19, 19);
+}
+.custom-calenda {
+  background: rgb(14, 170, 48);
+}
+.my-custom-input-class {
+  background: rgb(185, 144, 55);
+  padding: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+/* *************** global colors *************** */
+.color-red {
+  color: red;
+}
+.color-green {
+  color: green;
+}
+.color-gray {
+  color: rgb(46, 44, 44);
+}
+.color-brown {
+  color: #bb401e;
+}
+.color-white {
+  color: honeydew;
+}
+/* *************** global text-align *************** */
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+/* *************** global background-color *************** */
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-gray {
+  background-color: rgb(46, 44, 44);
+}

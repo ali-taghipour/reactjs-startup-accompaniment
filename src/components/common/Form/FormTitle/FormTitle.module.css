@@ -1,0 +1,14 @@
+.formTitle {
+  margin-bottom: 40px;
+}
+
+.formTitle > span {
+  color: white;
+  font-size: 26px;
+}
+
+.formFieldSeperator {
+  height: 2px;
+  background: #866441;
+  margin: 25px 0;
+}

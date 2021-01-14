@@ -1,0 +1,29 @@
+.item {
+  height: 65px;
+  width: 300px;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: 0.3s;
+}
+.item:hover {
+  background: rgb(148, 147, 147);
+}
+.item > label {
+  height: 40px;
+  width: 40px;
+  margin: 0 0 0 10px;
+  background: url("/Assets/Images/Icons/chevron-circle-right.png") no-repeat 0 0/100%
+    100%;
+}
+.item.show > label {
+  background: url("/Assets/Images/Icons/chevron-circle-left.png") no-repeat 0 0/100%
+    100%;
+}
+.item.show > span {
+  color: #bb401e;
+}

@@ -1,0 +1,72 @@
+export const resolvedData = {
+  result: {
+    count: 33,
+
+    searchResult: [
+      {
+        id: 1,
+        username: "sam",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 2,
+        username: "ali",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 3,
+        username: "hossein",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 4,
+        username: "mohsen",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 5,
+        username: "jasem",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 6,
+        username: "ghasem",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 7,
+        username: "abas",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+      {
+        id: 8,
+        username: "norolah",
+        cityName: "sari",
+        instrumentName: "setar",
+        instrumentScore: "2",
+        styleName: "sontai",
+      },
+    ],
+  },
+}

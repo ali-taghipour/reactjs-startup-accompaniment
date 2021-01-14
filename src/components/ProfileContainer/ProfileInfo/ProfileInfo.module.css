@@ -1,0 +1,87 @@
+.infoHolder {
+  position: absolute;
+  direction: ltr;
+  transition: 0.3s;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.infoHolder > .body {
+  width: 400px;
+  background: #ccc;
+  position: absolute;
+  padding: 20px 15px;
+  z-index: 5;
+  transition: 0.3s;
+  top: 0;
+}
+.infoHolder > .body .followeritem {
+  height: 70px;
+  width: 100%;
+  margin: 6px 0;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 13px;
+}
+.infoHolder > .body .followeritem > span {
+  margin: 0 8px;
+}
+.infoHolder > .body .followeritem > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #ccc;
+}
+.infoHolder > .body .followeritem:hover > img {
+  animation: imgUpDown 1s alternate infinite;
+}
+
+.infoHolder > .body .countHolder {
+  display: flex;
+  justify-content: end;
+}
+.infoHolder > .hide {
+  visibility: hidden;
+  opacity: 0;
+  left: 0;
+}
+.infoHolder > .show {
+  visibility: visible;
+  opacity: 1;
+  left: 300px;
+  top: 0;
+}
+
+.countHolder > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.countHolder > span.count {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #3f51b5;
+  color: #fff;
+}
+
+.useremail {
+  width: 100%;
+  padding: 7px;
+  background: rgb(233, 232, 232);
+  border-radius: 5px;
+}
+
+@keyframes imgUpDown {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

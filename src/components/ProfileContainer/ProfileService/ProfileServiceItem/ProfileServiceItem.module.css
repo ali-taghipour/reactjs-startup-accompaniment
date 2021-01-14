@@ -1,0 +1,24 @@
+.servicItemTop {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.servicItemTop > img {
+  height: 70px;
+  width: 70px;
+}
+
+.servicItemBottom {
+  height: 40px;
+  background: #c79c69;
+  color: #fff;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.servicItemBottom:hover {
+  background: #c79d69a4;
+}

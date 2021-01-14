@@ -1,0 +1,14 @@
+.searchContainer {
+  position: relative;
+  background: #f4f4f4 url("/Assets/Images/Icons/lines5.svg") no-repeat 0 0;
+  background-size: 30% auto;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchContainer {
+    position: relative;
+    background: none;
+    background-color: #f4f4f4;
+  }
+}

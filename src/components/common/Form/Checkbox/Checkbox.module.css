@@ -1,0 +1,72 @@
+.checkboxInputContainer {
+  width: 443px;
+  padding: 10px 5px;
+  direction: rtl;
+  font-family: yekan;
+  background-color: #f3f2c2;
+}
+
+.checkboxInputContainer > .checkboxInput {
+  display: none;
+}
+.checkboxInputContainer > .inputLabel {
+  display: block;
+  cursor: pointer;
+  padding: 5px 0;
+  margin: 5px auto;
+  font-size: 19px;
+  color: #fff;
+  color: #7a7a75;
+  width: 90%;
+  line-height: 32px;
+  position: relative;
+}
+.checkboxInputContainer > .inputLabel:hover {
+  color: rgb(167, 34, 34);
+}
+.checkboxInputContainer > .inputLabel > .checkboxTick {
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(184, 183, 177);
+  border-radius: 5px;
+  background-color: #ffffcf;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+.checkboxInputContainer > .inputLabel > .checkboxTick.select {
+  background: #ffffcf url("/Assets/Images/Icons/tick-icon.png") no-repeat 50%
+    50%;
+  background-size: 22px;
+}
+
+/* filter checkbox  */
+
+.checkboxInputContainer.filterCheckBox {
+  width: 100%;
+  padding: 6px 5px;
+  direction: rtl;
+  font-family: yekan;
+  background-color: #fff;
+  border-bottom: 2px solid #b8b7b1;
+}
+.checkboxInputContainer.filterCheckBox:last-child {
+  border-bottom: none;
+}
+
+.checkboxInputContainer.filterCheckBox > .inputLabel {
+  padding: 0;
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+.checkboxInputContainer.filterCheckBox > .inputLabel > .checkboxTick {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(184, 183, 177);
+  background-color: #e6e6e6;
+}
+.checkboxInputContainer.filterCheckBox > .inputLabel > .checkboxTick.select {
+  background-size: 14px;
+}
