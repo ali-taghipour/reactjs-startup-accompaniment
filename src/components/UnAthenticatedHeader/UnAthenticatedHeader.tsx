@@ -27,6 +27,7 @@ class Header extends Component {
         </NavigationItem>
         <div className={classes.Option}>
           <Link to="/Profile"> Test Profile </Link>
+	  <Link to="/search-result"> Search </Link>
           <button
             onClick={this.toggleSearchBox}
             className={"btn " + classes.Search}
